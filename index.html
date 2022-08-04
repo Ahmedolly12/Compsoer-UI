@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- The main section comprises of all other section -->
-    <div class="main-section">
+    <section class="main-section">
       <div class="logo-section">
         <div class="logo">
           <img src="./images/logo.png" />
@@ -34,43 +34,46 @@
           add, remove, and update packages using an interface
         </p>
       </div>
-      <form>
-        <div class="tmail">
+      <form  class="tmail">
+        <label for="eemail">
           <input type="email" placeholder="Input your email" />
+        </label>
+        <label for="">
           <input type="Submit" value="Join Waitlist" class="waitlist" />
-        </div>
+        </label>
       </form>
+        
       <!-- The flex-container contain the microsoft, apple and linux logo -->
       <div class="flex-container">
-        <div class="text">It is going to be available on</div>
+        <p>It is going to be available on <span>the following platform</span></p>
+        <!-- <div class="text">It is going to be available on</div> -->
         <div class="icons">
-          <div class="Microsoft">
+          <!-- <div class="Microsoft"> -->
             <a href=""><img src="./images/microsoft.png" /></a>
-          </div>
-          <div class="Apple">
+          <!-- </div> -->
+          <!-- <div class="Apple"> -->
             <a href=""><img src="./images/apple.png" /></a>
-          </div>
-          <div class="linux">
+          <!-- </div> -->
+          <!-- <div class="linux"> -->
             <a href=""><img src="./images/linux.png" /></a>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
       <!-- This section contain the downward part of the website -->
       <div class="screenshot">
-        <div>
-          <img
-            class="sandbox"
+        <div class="sand">
+         <a href="#"><img
             src="./images/By PHPSandbox (1).png"
             alt="sandbox"
-          />
+          /></a> 
         </div>
-        <div>
+        <div class="screen">
           <img class="sch" src="./images/screenshot.png" alt="screenshot" />
         </div>
         <div class="containTwitter">
           <img class="twitter" src="./images/twitter.png" alt="twitter" />
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
